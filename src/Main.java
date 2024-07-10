@@ -45,7 +45,7 @@ public class Main {
         double incomePerMonth = (monthlyIncome / investment) * 100;
         System.out.println("Your income per month is " + incomePerMonth + "%" + " of your initial investment");
 
-
+/*new*/
 //        Scanner scanner = new Scanner(System.in);
 //        String choices;
 //        double amount;
