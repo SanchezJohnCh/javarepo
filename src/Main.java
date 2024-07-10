@@ -33,17 +33,17 @@ public class Main {
 
         /*calculate the percentage return per month on your investment*/
 //
-        Scanner scanner = new Scanner(System.in);
-        double investment;
-        double monthlyIncome;
-
-        System.out.print("Please enter your Initial Investment: ");
-        investment = scanner.nextInt();
-        System.out.print("Please enter your Monthly Income: ");
-        monthlyIncome = scanner.nextInt();
-
-        double incomePerMonth = (monthlyIncome / investment) * 100;
-        System.out.println("Your income per month is " + incomePerMonth + "%" + " of your initial investment");
+//        Scanner scanner = new Scanner(System.in);
+//        double investment;
+//        double monthlyIncome;
+//
+//        System.out.print("Please enter your Initial Investment: ");
+//        investment = scanner.nextInt();
+//        System.out.print("Please enter your Monthly Income: ");
+//        monthlyIncome = scanner.nextInt();
+//
+//        double incomePerMonth = (monthlyIncome / investment) * 100;
+//        System.out.println("Your income per month is " + incomePerMonth + "%" + " of your initial investment");
 
 /*new*/
 //        Scanner scanner = new Scanner(System.in);
@@ -64,22 +64,22 @@ public class Main {
 //        }
 
                 /*Best way*/
-//                Scanner scanner = new Scanner(System.in);
-//                double[] rates = {15.86, 42.79, 58.26};
-//                String[] currencies = {"Dirhams", "Canadian Dollar", "USD"};
-//
-//                System.out.println("Please choose your preferred currency: 1. Dirhams 2. Canadian Dollar 3. USD");
-//                String choice = scanner.nextLine();
-//                System.out.println("Please enter the amount: ");
-//                double amount = scanner.nextDouble();
-//
-//                int index = Integer.parseInt(choice) - 1;
-//
-//                if (index >= 0 && index < rates.length) {
-//                    System.out.println("PHP to " + currencies[index] + ": " + amount * rates[index]);
-//                } else {
-//                    System.out.println("Invalid choice.");
-//                }
+                Scanner scanner = new Scanner(System.in);
+                double[] rates = {15.86, 42.79, 58.26};
+                String[] currencies = {"Dirhams", "Canadian Dollar", "USD"};
+
+                System.out.println("Please choose your preferred currency: 1. Dirhams 2. Canadian Dollar 3. USD");
+                String choice = scanner.nextLine();
+                System.out.println("Please enter the amount: ");
+                double amount = scanner.nextDouble();
+
+                int index = Integer.parseInt(choice) - 1;
+
+                if (index >= 0 && index < rates.length) {
+                    System.out.println("PHP to " + currencies[index] + ": " + amount * rates[index]);
+                } else {
+                    System.out.println("Invalid choice.");
+                }
             }
         }
 
