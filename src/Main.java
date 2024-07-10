@@ -80,7 +80,25 @@ public class Main {
                 } else {
                     System.out.println("Invalid choice.");
                 }
-            }
+
+//        Scanner scanner = new Scanner(System.in);
+//        String products[] = {"Apple","orange", "grapes"};
+//        double price[] = {15,25,30};
+//
+//        System.out.println("please choose a product: 1.apple, 2.orange, 3.grapes");
+//        String choices = scanner.nextLine();
+//        System.out.println("please enter the how many products: ");
+//        int size = scanner.nextInt();
+//
+//        int index = Integer.parseInt(choices) - 1;
+//
+//        if(index >= 0 && index < price.length){
+//            System.out.println("the total of " + size + " " + products[index] + " is: " + size * price[index]);
+//        }else{
+//            System.out.println("Invalid inpute bro!");
         }
+
+            }
+
 
 
